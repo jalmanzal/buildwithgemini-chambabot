@@ -1,0 +1,15 @@
+name: chambabot
+acli_version: 1.8.0
+agent_directory: app
+region: us-east1
+base_template: adk
+generated_at: '2026-10-01T21:02:48.297002+00:00'
+language: python
+framework: google-adk
+create_params:
+  root_agent_name: simple_agent
+  deployment_target: agent_runtime
+  cicd_runner: skip
+  is_a2a: true
+  agent_gateway: false
+  agent_guidance_filename: GEMINI.md
